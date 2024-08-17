@@ -1,0 +1,12 @@
+.letter {
+    display: inline-block; 
+    transition: color 0.3s ease; 
+    cursor: default;
+  }
+  
+.letter:hover {
+    color: #15460a; 
+}
+.spacing{
+    margin-left: 0.5rem;
+}

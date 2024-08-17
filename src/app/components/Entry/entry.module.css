@@ -1,0 +1,48 @@
+.btn{
+    border-radius: 5%;
+}
+.green{
+    background-color: #216f10;
+    box-shadow: 4px 4px 0 0 #36e30f;
+    border: 2px solid #36e30f;
+}
+.green:hover{
+    box-shadow: 2px 2px 0 0 #36e30f; 
+    transform: translate(2px,2px);
+}
+.blue{
+    background-color: #1b4d8e;
+    box-shadow: 4px 4px 0 0 #15c7eb;
+    border: 2px solid #15c7eb;
+}
+.blue:hover{
+    box-shadow: 2px 2px 0 0 #15c7eb; 
+    transform: translate(2px,2px);
+}
+.yellow{
+    background-color: #bdaf12;
+    box-shadow: 4px 4px 0 0 #f7ff56;
+    border: 2px solid #f7ff56;
+}
+.yellow:hover{
+    box-shadow: 2px 2px 0 0 #f7ff56;
+    transform: translate(2px,2px);
+}
+.red{
+    background-color: #b44531;
+    box-shadow: 4px 4px 0 0 #fe5959;
+    border: 2px solid #fe5959;
+}
+.red:hover{
+    box-shadow: 2px 2px 0 0 #fe5959; 
+    transform: translate(2px,2px);
+}
+.purple{
+    background-color: #7d239b;
+    box-shadow: 4px 4px 0 0 #c755f8;
+    border: 2px solid #c755f8;
+}
+.purple:hover{
+    box-shadow: 2px 2px 0 0 #c755f8; 
+    transform: translate(2px,2px);
+}
