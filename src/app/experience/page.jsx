@@ -12,6 +12,33 @@ export default function Page({ Component, pageProps }) {
       <div className="flex flex-row p-5">
         <div className="flex-auto flex flex-row justify-start">
           <div className="relative w-80 h-80 bg-gray-300">
+            <Image
+              src="/imgs/MetaBuilderDAO.jpg"
+              layout={"fill"}
+              objectFit="cover"
+            />
+          </div>
+          <div className="font-serif w-96 p-3">
+            <span className="font-bold text-xl">Oct. 2022</span>
+            <span className="font-bold text-xl ml-20 text-rose-600">
+              Proccessing
+            </span>
+            <p className="font-bold text-2xl">MetaBuilder DAO</p>
+            <span>
+              I found that there are many unfair aspects in the society, and the
+              most effective way to address this is by building a new system
+              wthat allows disadvantaged individuals to receive help from others
+              rather than relying solely on government support. MetaBuilder DAO
+              creates a simulated world where people have their skills and
+              development histories recorded, enabling them to showcase their
+              potential and integrate into work and life.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-row p-5">
+        <div className="flex-auto flex flex-row justify-start">
+          <div className="relative w-80 h-80 bg-gray-300">
             <Image src="/imgs/fire.jpg" layout={"fill"} objectFit="cover" />
           </div>
           <div className="font-serif w-96 p-3">
@@ -30,23 +57,20 @@ export default function Page({ Component, pageProps }) {
         <div className="flex-auto flex flex-row justify-start">
           <div className="relative w-80 h-80 bg-gray-300">
             <Image
-              src="/imgs/MetaBuilderDAO.jpg"
+              src="/imgs/0risk.jpg"
               layout={"fill"}
               objectFit="cover"
             />
           </div>
           <div className="font-serif w-96 p-3">
             <span className="font-bold text-xl">Oct. 2022</span>
-            <span className="font-bold text-xl ml-20 text-rose-600">Proccessing</span>
-            <p className="font-bold text-2xl">MetaBuilder DAO</p>
+            <span className="font-bold text-xl ml-20 text-rose-600">
+              Proccessing
+            </span>
+            <p className="font-bold text-2xl">0risk DAO</p>
             <span>
-              I found that there are many unfair aspects in the society, and the
-              most effective way to address this is by building a new system
-              wthat allows disadvantaged individuals to receive help from others
-              rather than relying solely on government support. MetaBuilder DAO
-              creates a simulated world where people have their skills and
-              development histories recorded, enabling them to showcase their
-              potential and integrate into work and life.
+            I have noticed that many people have significant misunderstandings about Web3 and blockchain, and they find it challenging to
+             get started in this field. I joined the founding of 0risk DAO, which is dedicated to addressing this issue.
             </span>
           </div>
         </div>

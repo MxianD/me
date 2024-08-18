@@ -1,16 +1,16 @@
 import Link from "next/link";
-
+import styles from './navbar.module.css'
 const Navbar = () => {
   return (
     <header>
       <nav className="flex justify-center items-center h-12">
         <div className="flex flex-row w-1/3 ">
           <Link href="/" className="flex-auto text-center">
-            <div>
-              Home
+            <div className={`font-bold font-serif text-xl ${styles.blue}`}>
+              TimeLord.eth
             </div>
           </Link>
-          <Link href="About" className="flex-auto text-center">
+          {/* <Link href="About" className="flex-auto text-center">
             <div>
               About
             </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <div>
               Bookshelf
             </div>
-          </Link>
+          </Link> */}
         </div>
       </nav>
       <hr />
