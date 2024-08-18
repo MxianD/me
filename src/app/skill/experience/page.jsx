@@ -76,12 +76,12 @@ export default function Page({ Component, pageProps }) {
       <Entry color={"green"} section={"About"} directTo={"/about"}/>
       </div>
       <div className="flex items-center justify-evenly p-1">
-          <Entry className="felx-auto" color={"purple"} section={"Experience"} directTo={"/experience"} />
+          <Entry className="felx-auto" color={"purple"} section={"Project"} directTo={"/experience"} />
           <Entry className="felx-auto" color={"blue"} section={"Skill"} directTo={"/skill"}/>
       </div>
       <div className="flex items-center justify-between p-1">
           <Entry className="felx-auto" color={"yellow"} section={"Bookshelf"} directTo={"/bookshelf"}/>
-          <Entry className="felx-auto" color={"red"} section={"Thoughts"} directTo={"/thoughts"}/>
+          <Entry className="felx-auto" color={"red"} section={"Idea"} directTo={"/idea"}/>
       </div>
     </>
   );

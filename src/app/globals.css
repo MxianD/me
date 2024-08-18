@@ -18,6 +18,9 @@
 
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -28,9 +31,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 body::-webkit-scrollbar {
   display: none;
+}
+main {
+  flex: 1;
 }
 @layer utilities {
   .text-balance {
