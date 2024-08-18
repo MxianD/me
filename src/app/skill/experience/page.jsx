@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Entry from "@/app/components/Entry/Entry";
 import SampleIntroduction from "@/app/components/SampleIntroduction/SampleIntroduction";
 import { AiFillGithub, AiFillLinkedin, AiOutlineX } from "react-icons/ai";
