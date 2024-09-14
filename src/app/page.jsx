@@ -30,7 +30,7 @@ export default function Page({ Component, pageProps }) {
       <div className="flex flex-col items-center mt-5">
         <div className="flex-auto">
           <div className="text-6xl font-serif">
-            <span className="letter">T</span>
+            <span className="letter">SSST</span>
             <span className="letter">i</span>
             <span className="letter">m</span>
             <span className="letter">e</span>
